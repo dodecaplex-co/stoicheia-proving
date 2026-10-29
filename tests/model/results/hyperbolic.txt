@@ -1,13 +1,13 @@
 # hyperbolic: the hyperbolic plane, 20,000 samples per axiom
 # command: python3 -I tests/model/hyperbolic.py 20000 1
 # seeds: 1
-# commit: 8ce3f1ae42852e92cc4593a97bd9e55d1930e901 (harness files as committed)
+# commit: 6a10d4c0aec3a181998dbe39e951876166bdfd57 (harness files as committed)
 # harness sha256: f4abcfc6227e217194b7c92195ee3feaacb59a82f022b9bd1795332e995a9013
-# python: 3.14.2 (CPython, Darwin arm64)
-# date: 2026-10-28
-# time: 95.0 s
+# python: 3.12.3 (CPython, Linux x86_64)
+# date: 2026-10-29
+# time: 123.9 s
 
-self-test: law of cosines, reflections, perpendiculars and angle sums on 2000 triangles (worst relative error 3.9e-15)
+self-test: law of cosines, reflections, perpendiculars and angle sums on 2000 triangles (worst relative error 7.4e-15)
 axiom                                       tried  hyp held counterex
 Postulate1                                  20000      8270         0
 Postulate2                                  20000      4851         0
