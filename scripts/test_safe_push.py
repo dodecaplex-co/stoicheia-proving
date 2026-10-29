@@ -962,7 +962,7 @@ WORKFLOW_CONTRACTS = {
                     *when(LANE, CHECKOUT, *FORMAL_MODEL))},
             "acceptance": {
                 "runs-on": "ubuntu-latest", "timeout-minutes": 60,
-                "env": {"ACCEPTANCE_GATE": "ratchet"}, "steps": (
+                "env": {"ACCEPTANCE_GATE": "full"}, "steps": (
                     HISTORY, PYTHON, *LEAN,
                     # MAIN_SHA, main for the event and an ancestor of the checkout, or red.
                     {"run": Script("bd4d63c2ad732ea90703d4fb48a71770")},
