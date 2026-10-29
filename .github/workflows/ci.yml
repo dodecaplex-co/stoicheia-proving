@@ -363,7 +363,7 @@ jobs:
       # `ratchet`: fail only when a pass on main turns into a fail. The consolidation
       # release's pull request sets `full`, and from then on any failure fails the job.
       # Any other value fails the job at once, so that no misspelling turns the gate off.
-      ACCEPTANCE_GATE: ratchet
+      ACCEPTANCE_GATE: full
     steps:
       - uses: actions/checkout@v5
         with:
